@@ -1,0 +1,19 @@
+.table {
+  margin: auto;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+.users {
+  border: 1px solid black;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  padding: 0;
+  gap: 0;
+}

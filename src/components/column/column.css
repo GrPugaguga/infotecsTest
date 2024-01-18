@@ -1,0 +1,27 @@
+.column {
+  min-width: 50px;
+  border: 0.5px solid black;
+  padding: 3px;
+  overflow: hidden;
+  margin: 0px;
+}
+.menu {
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.fio {
+  background-color: #e1f5fe;
+}
+.age {
+  background-color: white;
+}
+.gender {
+  background-color: #b3e5fc;
+}
+.phone {
+  background-color: #e1f5fe;
+}
+.address {
+  background-color: white;
+}
